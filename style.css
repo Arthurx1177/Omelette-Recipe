@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3e5d8;
+}
+
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 50px 400px;
+  border-radius: 20px;
+  padding: 70px;
+}
+
+.img img {
+  align-items: center;
+  width: 950px;
+  border-radius: 35px;
+  padding-top: 50px;
+  padding: 20px;
+}
+
+.container h1 {
+  font-family: "Young Serif", system-ui;
+  padding: 20px;
+}
+
+.container p {
+  font-family: "Montserrat", system-ui;
+  font-size: 15pt;
+  padding: 20px;
+}
+
+.preparation-time {
+  background-color: #ffc4e9;
+  border-radius: 20px;
+  width: 950px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.preparation-time h2 {
+  font-family: "Young Serif", system-ui;
+  color: #f83f9b;
+  padding: 10px;
+}
+
+.preparation-time ul li {
+  font-size: 15pt;
+  font-family: "Montserrat", system-ui;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.preparation-time ul span {
+  color: #000;
+  font-weight: 600;
+}
+
+.ingredients {
+  width: 950px;
+  height: 250px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #88736d;
+}
+
+.ingredients h2 {
+  font-family: "Young Serif", system-ui;
+  color: #8b5e50;
+  padding: 10px;
+}
+
+.ingredients ul li{
+  font-size: 15pt;
+  font-family: "Montserrat", system-ui;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.instructions {
+  width: 950px;
+  height: 450px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #88736d;
+}
+
+.instructions h2 {
+  font-family: "Young Serif", system-ui;
+  color: #8b5e50;
+  padding: 10px;
+}
+
+.instructions ul li {
+  font-size: 15pt;
+  font-family: "Montserrat", system-ui;
+  padding-left: 10px;
+  padding-top: 10px;
+  list-style-type: decimal;
+}
+
+.instructions ul li::marker {
+  color: #8b5e50;
+  font-weight: 600;
+}
+
+.instructions ul li span {
+  font-weight: 600;
+}
+
+.nutrition {
+  width: 950px;
+  height: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-top: 80px;
+}
+
+.nutrition h2 {
+  font-family: "Young Serif", system-ui;
+  color: #8b5e50;
+  padding: 10px;
+}
+
+.nutrition p {
+  font-family: "Montserrat", system-ui;
+  font-size: 15pt;
+  padding: 20px;
+}
+
+.nutrition-assets {
+  width: 900px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-bottom: 1px solid #88736d;
+}
+
+.nutrition-assets h3 {
+  padding-left: 30px;
+}
+
+.nutrition-assets span {
+  color: #8b5e50;
+  font-size: 15pt;
+  font-weight: 600;
+  padding-left: 500px;
+}
+
